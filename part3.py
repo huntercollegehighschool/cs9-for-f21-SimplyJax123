@@ -23,8 +23,8 @@ Enter the height: 3
 base = int(input("enter the base: "))
 height = int(input("enter the height: "))
 
-truebase = str("*" * base)
+base = str("*" * base)
 
 
 for n in range (1, height + 1):
-  print(truebase)
+  print(base)
